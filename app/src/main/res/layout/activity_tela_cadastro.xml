@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:fillViewport="true">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco"
+    android:layout_height="wrap_content"
+    tools:context=".Views.Tela_Cadastro">
+
+
+
+    <LinearLayout
+        android:id="@+id/contAjuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/branco"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lok flix"
+            android:textSize="22sp"
+            android:textColor="@color/vermelho"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajuda"
+            android:textSize="18sp"
+            android:textColor="@color/preto"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="120dp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/nomeENTRAR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Entrar"
+            android:textColor="@color/preto"
+            android:textSize="20sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tudo pronto para \n assistir?"
+        android:textSize="22sp"
+        android:textColor="@color/preto"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/txtdescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insira seu email para criar ou acessar sua\n conta"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+    </TextView>
+    
+    
+    
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:hintTextColor="@color/vermelho"
+        app:helperTextTextColor="@color/vermelho"
+        app:boxStrokeColor="@color/vermelho"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailcad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            android:hint="       Email"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/color_cursor">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/containerSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:hintTextColor="@color/vermelho"
+        app:helperTextTextColor="@color/vermelho"
+        app:boxStrokeColor="@color/vermelho"
+        android:visibility="gone"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="      Senha"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/color_cursor">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btvamos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/vermelho"
+        android:padding="15dp"
+        android:text="Vamos la"
+        android:visibility="visible"
+        android:textColor="@color/branco"
+        android:textSize="18sp">
+    </Button>
+    <Button
+        android:id="@+id/btcadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/vermelho"
+        android:padding="15dp"
+        android:text="Continuar"
+        android:visibility="gone"
+        android:textColor="@color/branco"
+        android:textSize="18sp">
+    </Button>
+
+
+</LinearLayout>
+</ScrollView>

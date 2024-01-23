@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="vermelho">#FF0000</color>
+    <color name="verde">#00FF00</color>
+    <color name="azul">#0000FF</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="amarelo">#FFFF00</color>
+    <color name="ciano">#00FFFF</color>
+    <color name="laranja">#FFA500</color>
+    <color name="roxo">#800080</color>
+    <color name="verde_escuro">#008000</color>
+    <color name="tomate">#FF6347</color>
+    <color name="preto">#000000</color>
+    <color name="azul_escuro">#483D8B</color>
+    <color name="verde_mar">#2E8B57</color>
+    <color name="verde_oliva_escuro">#556B2F</color>
+    <color name="vermelho_queimado">#FF4500</color>
+    <color name="turquesa_escuro">#00CED1</color>
+    <color name="marrom">#800000</color>
+    <color name="cinza">#37393A</color>
+    <color name="azul_petróleo">#7B68EE</color>
+</resources>

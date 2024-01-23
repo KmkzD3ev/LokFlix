@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528215444297",
+    "project_id": "lokiflix-97864",
+    "storage_bucket": "lokiflix-97864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528215444297:android:35e2fb0919313648c52898",
+        "android_client_info": {
+          "package_name": "com.example.lokflix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWMmN5s67rClOUrYn8RvtA4cQlomJGxnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

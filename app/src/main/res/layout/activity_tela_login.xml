@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:fillViewport="true">
+
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/preto"
+    android:layout_height="wrap_content"
+    tools:context=".Views.Tela_Login">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contEmal"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:hintTextColor="@color/vermelho"
+        app:helperTextTextColor="@color/verde"
+        app:boxStrokeColor="@color/preto"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/branco"
+            android:layout_marginEnd="20dp"
+            android:hint="       Email"
+
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/color_cursor">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        app:hintTextColor="@color/vermelho"
+        app:helperTextTextColor="@color/verde"
+        app:boxStrokeColor="@color/preto"
+
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:hint="      Senha"
+            android:textColorHint="@color/branco"
+            android:textColor="@color/branco"
+            android:inputType="textEmailAddress"
+            android:textCursorDrawable="@drawable/color_cursor">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+<Button
+    android:id="@+id/btlogar"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:layout_gravity="center"
+    android:layout_marginTop="45dp"
+    android:backgroundTint="@color/vermelho"
+    />
+
+    <TextView
+        android:id="@+id/txtCriar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textSize="18sp"
+        android:layout_marginStart="300dp"
+        android:textColor="@color/branco"
+        android:layout_marginTop="28dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
